@@ -9,7 +9,6 @@
 - [Description](#description)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Clone Project](#clone-project)
 - [Installation](#installation)
 - [Start Project](#start-project)
 - [Contact Information](#contact-information)
@@ -22,16 +21,11 @@
 - Apollo Server (for graphQL server)
 - Node.js (for execution)
 
-## Clone Project
-
-##  Clone Project
-- Clone the project and change directory to university-app-graphql
-```bash
-git clone https://github.com/ChandanaThoti/university-app-graphql.git
-cd university-app-graphql
-```
-
 ## Installation
+
+```bash
+cd backend
+```
 
 ```bash
 npm install
