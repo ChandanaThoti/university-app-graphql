@@ -1,7 +1,9 @@
+import Home from "./components/Home";
+
 function App() {
   return (
     <div className="App">
-      <h3>This is Univeristy app</h3>
+      <Home />
     </div>
   );
 }
