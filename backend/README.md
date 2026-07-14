@@ -14,6 +14,11 @@
 - [Contact Information](#contact-information)
 - [Contibutions](#contributions)
 
+## Features
+- Get students by studentId, courses by courseId and faculty by facultyId.
+- Get enrollement of students in courses by studentId.
+- Get student who enrolled in courses with faculty assigned to that particular course.
+
 ## Tech Stack
 
 - **Express** with Typescript
