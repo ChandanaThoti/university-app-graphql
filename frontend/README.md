@@ -14,6 +14,9 @@ University app frotend consist of UI of unversity with students, faculty and cou
 - [Contact Information](#contact-information)
 - [Contibutions](#contributions)
 
+## Features
+- Display students details with course enrolled and faculty dealing the course.
+
 ##  Tech Stack
 
 - **React** with Typescript
