@@ -8,11 +8,11 @@ type getStudent = {
 const Home = () => {
     const [student, setStudent] = useState<Student>()
 
-    const { data } = useQuery<getStudent>(GET_STUDENT_COURSE_FACULTY);
+    const { data } = useQuery(GET_STUDENT_COURSE_FACULTY);
     const getStudent = () => {
         if (data) {
             const { student } = data;
-            const { id, name, department, courses } = student;
+            const { id, name, department, courses } = student!;
             setStudent({ id, name, department, courses })
 
         }
