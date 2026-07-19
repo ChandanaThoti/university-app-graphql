@@ -1,7 +1,20 @@
 {
   "dependencies": {
-    "@types/express": "^5.0.6",
-    "express": "^5.2.1",
+    "@apollo/server": "^5.5.1",
+    "graphql": "^16.14.2",
     "typescript": "^7.0.2"
-  }
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "- This is a backend app university with students, courses and faculty where api managed by graphQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
 }

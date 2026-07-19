@@ -1,0 +1,32 @@
+export const students=[
+    {
+        id:1,
+        name:"Chandana",
+        contact:"6785786950",
+        department:"CSE",
+    },
+    {
+        id:2,
+        name:"Nidhi",
+        contact:"9876543210",
+        department:"ECE",
+    },
+    {
+        id:3,
+        name:"Arjun",
+        contact:"8786786990",
+        department:"EEE",
+    },
+    {
+        id:4,
+        name:"Aditya",
+        contact:"7654321098",
+        department:"CSE",
+    },
+     {
+        id:5,
+        name:"Vibha",
+        contact:"9654521099",
+        department:"Civil",
+    }
+];
